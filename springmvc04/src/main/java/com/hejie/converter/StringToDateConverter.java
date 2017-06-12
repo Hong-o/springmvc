@@ -7,6 +7,11 @@ import java.util.Date;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.util.StringUtils;
 
+/**
+ * 类型转换器 String->Date
+ * @author Administrator
+ *
+ */
 public class StringToDateConverter implements Converter<String, Date>{
 	
 	private final SimpleDateFormat DATA_FORMAT_PARTTEN = new SimpleDateFormat("yyyy-MM-dd");
